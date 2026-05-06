@@ -1,108 +1,153 @@
-<h1 align="center">Hey, I'm Shanmukha 👋</h1>
+<div align="center">
 
-<p align="center">
-  <em>Building AI-powered products and data tools that solve real problems</em>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=120&section=header&animation=fadeIn" width="100%"/>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/shanmukha-vutikuri/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://shanmukhworld.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://github.com/vutikurishanmukha9" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=vutikurishanmukha9&style=for-the-badge&color=0e75b6" alt="Profile views"/>
-</p>
+# Shanmukha Vutikuri
+
+**AI Engineer · Full-Stack Developer · Data & Cloud**
+
+*I build things that ship — not just things that run on localhost.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shanmukha-vutikuri/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white)](https://shanmukhworld.netlify.app)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vutikurishanmukha9@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=vutikurishanmukha9&style=flat-square&color=6366f1&label=profile+views)](https://github.com/vutikurishanmukha9)
+
+</div>
 
 ---
 
-## 👨‍💻 About Me
+## About
 
-- 🎓 B.Tech ECE Graduate (2025) — Aditya Engineering College
-- 🔭 Currently building **HeartOut** — a live storytelling platform
-- 🌱 Currently deepening skills in **Advanced RAG pipelines, LLM fine-tuning & DSA in Python**
-- 🏆 Published research at **IEEE EAIC 2025**
-- ☁️ Certified: **AWS Cloud Practitioner** · **Oracle AI Foundations**
-- 🤝 Open to **full-time roles in AI / Data**
-- ⚡ Fun fact: *I validate every tech decision across 5 LLMs before writing a single line of code*
+B.Tech ECE graduate who builds AI-powered full-stack products — from the RAG pipeline to the deployed UI. I care about architecture decisions, clean APIs, and shipping things that actually work in production.
 
----
+Right now I'm looking for entry-level roles in **AI engineering**, **full-stack development**, or **data analytics**.
 
-## 🚀 Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**GetReport**](https://get-report.vercel.app/) | AI-powered CSV/Excel → PDF report generator using RAG | FastAPI · GPT-4o · Polars · Celery · Redis · PostgreSQL · S3 |
-| **HiHR** | Full-stack HR email outreach tool with JWT auth, AES-256 encryption & real-time campaign tracking | React · FastAPI · PostgreSQL |
-| **HeartOut** | Live storytelling platform | Full-stack |
-| **PromptBuddy** | Prompt template generator with 21 templates & 5-dimension quality scorer | Python · React |
-| **Ele-Visualize** | 3D chemistry education platform with gesture controls | WebXR · JavaScript |
-| **Unicorn Startup Dashboard** | Power BI dashboard across ~1,073 unicorn companies — funding, valuation, industry insights | Power BI |
+- 🔭 Latest project: **HeartOut** — a storytelling platform with 541+ automated tests and CI/CD
+- 📄 Research published at **IEEE EAIC 2025**
+- ☁️ Certified: **AWS Cloud Practitioner** · **Oracle AI Foundations Associate**
+- 🧠 Interests: RAG architectures, LLM evaluation, async Python, product engineering
 
 ---
 
-## 🛠️ Tech Stack
+## Projects
 
-**Languages**
+These are the four I'd walk an interviewer through:
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+### [GetReport](https://get-report.vercel.app/) — AI Data Analysis Platform
+> Upload CSV/Excel → get a clean, publication-ready PDF report with AI commentary.
 
-**AI / ML / Data**
+Two-stage pipeline: inspection phase (data profiling + quality scoring) → analysis phase (approved cleaning + stats + PDF generation). The interesting engineering is in the hybrid RAG engine — dense vector search combined with sparse keyword scoring for context retrieval that actually answers domain-specific questions.
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-
-**Backend & APIs**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-
-**Databases & Infra**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+**Stack:** FastAPI · GPT-4o · Polars (lazy execution) · Celery · Redis · PostgreSQL · AWS S3 · WeasyPrint  
+**What I'd highlight:** Magic number file validation to prevent extension spoofing, async Celery workers to keep the API non-blocking, and a dual PDF engine (ReportLab for dev, WeasyPrint for prod) switchable via env var.
 
 ---
 
-## 📊 GitHub Stats
+### [HeartOut](https://github.com/vutikurishanmukha9/HeartOut) — Storytelling Platform
+> Anonymous, empathy-first space for sharing personal stories.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vutikurishanmukha9&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vutikurishanmukha9&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="40%"/>
-</p>
+Production-grade FastAPI backend (migrated from Flask in v3.0) with async SQLAlchemy, HttpOnly cookie auth (immune to XSS token theft), and a smart gravity-based ranking algorithm for the feed. CI/CD pipeline runs on every push.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vutikurishanmukha9&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
+**Stack:** FastAPI · SQLAlchemy 2.0 · React 18 · TanStack Query · PostgreSQL · Redis  
+**Stats:** 541+ automated tests (327 pytest + 214 Vitest) · 70% backend coverage · GitHub Actions CI
 
 ---
 
-## 📬 Get In Touch
+### [HiHR](https://github.com/vutikurishanmukha9/HR_Cold_Email) — HR Email Outreach Tool
+> Bulk personalized email campaigns with real-time tracking.
 
-- 💼 LinkedIn: [shanmukha-vutikuri](https://www.linkedin.com/in/shanmukha-vutikuri/)
-- 🌐 Portfolio: [shanmukhworld.netlify.app](https://shanmukhworld.netlify.app)
-- 💬 Ask me about: **FastAPI · RAG pipelines · Building full-stack AI products from scratch**
+Built JWT auth with account lockout (5 attempts = 30-min block), AES-256-CBC credential encryption, SMTP connection pooling for 5–10× send performance, and a click/open tracking pipeline with 1×1 pixel embeds and redirect proxying. Kept local due to SMTP constraints on free tiers — but the architecture is production-ready.
+
+**Stack:** React 19 · TypeScript · Node.js · Express · Prisma · PostgreSQL · Nodemailer · Winston
+
+---
+
+### [PromptBuddy](https://github.com/vutikurishanmukha9/PromptBuddy) — Multi-LLM Prompt Evaluator
+> Test your prompts across GPT-4, Claude, Gemini, and Cohere simultaneously.
+
+21 prompt templates, a keyword-based suggestion engine, and a 5-dimension quality scorer (clarity, specificity, context, tone, completeness). Useful for comparing how different models handle the same instruction — built this because I kept doing this manually.
+
+**Stack:** Python · React · OpenAI API · Claude API · Gemini API · Cohere API
+
+---
+
+<details>
+<summary><strong>Other projects</strong> — click to expand</summary>
+<br>
+
+**[Team Task Manager](https://github.com/vutikurishanmukha9/project-focus)** — Full-stack SaaS with Django REST Framework, role-based access control enforced at permission class + queryset + serializer layers, deployed on Railway + Vercel + Neon PostgreSQL. Zero N+1 queries by design.
+
+**[Ele-Visualize](https://github.com/vutikurishanmukha9/Ele-Visualize)** — 3D chemistry learning workbench with React Three Fiber, MediaPipe hand tracking, and WebXR AR. Premium dark-mode scientific UI with a command palette, gesture state machine (open hand = rotate, pinch = zoom, fist = freeze), and a local JSON-backed session store.
+
+**[AI Resume Analyzer](https://github.com/vutikurishanmukha9/Resume_App)** — Sentence Transformers + custom ATS scorer with 5 weighted components (keywords 35%, skills 25%, experience 20%, education 10%, formatting 10%). Negation-aware keyword parsing ("NOT required" handled correctly). Fully stateless, no disk writes — works on ephemeral filesystems.
+
+**[Global Unicorn Dashboard](https://github.com/vutikurishanmukha9/unicorn-dashboard)** — Power BI analysis of 1,073 unicorn companies. Star schema with 4 related tables, Power Query cleaning, DAX measures, and dynamic slicers across 6 continents.
+
+**[Multimodal AI System](https://github.com/vutikurishanmukha9/multimodal_ai_project)** — YOLOv8 + BLIP (Salesforce) for object detection, image captioning, and visual Q&A. Streamlit interface with four color themes and session-based image history.
+
+</details>
+
+---
+
+## Tech Stack
+
+**Languages:** Python · TypeScript · JavaScript · C++ · Java  
+
+**AI / ML / Data:**  
+`OpenAI` `Anthropic` `Google Gemini` `Cohere` `LangChain` `Sentence Transformers` `YOLOv8` `Polars` `Pandas` `scikit-learn` `Power BI`
+
+**Backend:**  
+`FastAPI` `Django REST Framework` `Node.js / Express` `Celery` `Redis` `SQLAlchemy` `Prisma`
+
+**Frontend:**  
+`React 18/19` `TypeScript` `Vite` `Tailwind CSS` `TanStack Query` `React Three Fiber`
+
+**Databases & Infra:**  
+`PostgreSQL` `SQLite` `MongoDB` `Redis` `Docker` `AWS S3` `Railway` `Render` `Vercel`
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=vutikurishanmukha9&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="160"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=vutikurishanmukha9&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=vutikurishanmukha9&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+## Certifications & Research
+
+| | |
+|---|---|
+| AWS Cloud Practitioner | Amazon Web Services, 2024 |
+| Oracle AI Foundations Associate | Oracle, 2024 |
+| IEEE EAIC 2025 | Research paper published and presented |
+
+---
+
+## Get In Touch
+
+I'm actively looking for entry-level roles in AI engineering, full-stack development, or data analytics.
+
+If you're building something interesting or have a role that fits — I'd like to hear about it.
+
+**LinkedIn:** [shanmukha-vutikuri](https://www.linkedin.com/in/shanmukha-vutikuri/) · **Portfolio:** [shanmukhworld.netlify.app](https://shanmukhworld.netlify.app)
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=80&section=footer" width="100%"/>
+
+</div>
