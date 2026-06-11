@@ -14,9 +14,9 @@
 <tr>
 <td width="60%" valign="top">
 
-## Shanmukha Vutikuri
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=100&pause=9999&color=8B5CF6&center=false&vCenter=true&repeat=false&width=600&height=60&lines=Shanmukha+Vutikuri)
 
-**AI Engineer · Full-Stack Developer · Data Engineer**
+**`AI Engineer · Full-Stack Developer · Data Engineer`**
 
 ```
 B.Tech ECE  ·  AWS Certified  ·  Oracle AI Certified
@@ -70,13 +70,13 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 ---
 
-### ◈ GetReport — AI Data Analysis Platform
+### GetReport — AI Data Analysis Platform
 
 **Live:** [get-report.vercel.app](https://get-report.vercel.app/)
 
 **The problem:** Non-technical teams drown in CSVs. BI tools need expertise. Consultants are expensive.
 
-**The answer:** Upload a CSV or Excel file → a two-stage AI pipeline profiles it, scores data quality column-by-column, gets your approval on cleaning decisions, then generates a publication-ready PDF report with commentary.
+**The answer:** Upload a CSV or Excel file — a two-stage AI pipeline profiles it, scores data quality column-by-column, gets your approval on cleaning decisions, then generates a publication-ready PDF report with commentary.
 
 **The architecture decisions that actually matter:**
 
@@ -93,9 +93,9 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 ---
 
-### ◈ HeartOut — Storytelling Platform
+### HeartOut — Storytelling Platform
 
-**Repo:** [github.com/vutikurishanmukha9/HeartOut](https://github.com/vutikurishanmukha9/HeartOut) · ![CI](https://github.com/vutikurishanmukha9/HeartOut/actions/workflows/ci.yml/badge.svg)
+**Repo:** [github.com/vutikurishanmukha9/HeartOut](https://github.com/vutikurishanmukha9/HeartOut) &nbsp; ![CI](https://github.com/vutikurishanmukha9/HeartOut/actions/workflows/ci.yml/badge.svg)
 
 **The problem:** Social media is performative. People have nowhere honest and anonymous to speak.
 
@@ -109,7 +109,7 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 | Feed algorithm | `score = points / (age_hours + 2)^1.8` — single SQL query | Replaced 6 category-specific algorithms with one clean Hacker News formula adapted for emotional content. |
 | Logout integrity | Database-backed refresh token blocklist | Tokens can't be replayed after `POST /auth/logout`. Stateless JWTs made stateful where it matters. |
 | N+1 elimination | `joinedload()` everywhere + denormalized `support_count` / `comment_count` on Post model | Zero extra queries for counts. Profiled and verified. |
-| Migration (v3.0) | Full rewrite: Flask → FastAPI, async SQLAlchemy 2.0, Pydantic v2 | Strict field whitelisting. Async throughout. Not a patch — a ground-up rebuild. |
+| Migration (v3.0) | Full rewrite: Flask to FastAPI, async SQLAlchemy 2.0, Pydantic v2 | Strict field whitelisting. Async throughout. Not a patch — a ground-up rebuild. |
 
 **Stats:** `541+ automated tests` · `327 pytest (backend)` · `214 Vitest (frontend)` · `70% backend coverage`<br>
 **CI/CD:** Backend tests · Frontend build · Flake8 lint · Trivy security scan — on every push
@@ -118,7 +118,7 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 ---
 
-### ◈ AI Royal Rumble — Live Multi-Model Debate Platform
+### AI Royal Rumble — Live Multi-Model Debate Platform
 
 **Repo:** [github.com/vutikurishanmukha9/AI-Royal-Rumble](https://github.com/vutikurishanmukha9/AI-Royal-Rumble)
 
@@ -139,7 +139,7 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 ---
 
-### ◈ HiHR — Smart HR Outreach Tool
+### HiHR — Smart HR Outreach Tool
 
 **Repo:** [github.com/vutikurishanmukha9/HR_Cold_Email](https://github.com/vutikurishanmukha9/HR_Cold_Email)
 
@@ -150,8 +150,8 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 | Feature | Implementation |
 |---|---|
 | Credential security | AES-256-CBC encryption at rest. Key rotation invalidates credentials, not application state. |
-| Send performance | SMTP connection pooling — 5–10× faster than reconnecting per email |
-| Tracking | 1×1 GIF pixel embed (open) + link rewriting with redirect proxy (click) — per-recipient timestamps |
+| Send performance | SMTP connection pooling — 5-10x faster than reconnecting per email |
+| Tracking | 1x1 GIF pixel embed (open) + link rewriting with redirect proxy (click) — per-recipient timestamps |
 | Auth hardening | JWT + 5-attempt lockout = 30-minute block. Access tokens: 15 min. Refresh: 7 days. |
 | Rate control | Configurable batch size + inter-batch delay — ISP rate limits respected by design, not accident |
 
@@ -159,7 +159,7 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 ---
 
-### ◈ PromptBuddy — Multi-LLM Prompt Evaluator
+### PromptBuddy — Multi-LLM Prompt Evaluator
 
 **Repo:** [github.com/vutikurishanmukha9/PromptBuddy](https://github.com/vutikurishanmukha9/PromptBuddy)
 
@@ -172,11 +172,11 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 ---
 
 <details>
-<summary><b>▸ More projects — click to expand</b></summary>
+<summary><b>More projects — click to expand</b></summary>
 
 <br>
 
-**[SHL Assessment Recommender](https://github.com/vutikurishanmukha9)** — FastAPI backend with BM25 + semantic hybrid retrieval. 3-tier LLM failover (Premium → Free → Deterministic fallback). Regex-based guardrails that bypass the LLM entirely for off-topic queries. Deployed on Railway.
+**[SHL Assessment Recommender](https://github.com/vutikurishanmukha9)** — FastAPI backend with BM25 + semantic hybrid retrieval. 3-tier LLM failover (Premium to Free to Deterministic fallback). Regex-based guardrails that bypass the LLM entirely for off-topic queries. Deployed on Railway.
 
 **[Team Task Manager](https://github.com/vutikurishanmukha9/project-focus)** — Django REST Framework SaaS with RBAC enforced at three independent layers: permission class, queryset, and serializer. Zero N+1 queries by design. Deployed on Railway + Vercel + Neon PostgreSQL.
 
@@ -219,7 +219,7 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 ---
 
-## Credentials & Research
+## Credentials and Research
 
 <table width="100%" border="0">
 <tr>
@@ -244,7 +244,7 @@ AWS Certification        →   Celery · Redis · Docker      →  Cloud-Native 
 
 Published at **IEEE EAIC 2025**, NIT Jalandhar · Paper ID: 482
 
-Sensor fusion pipeline (PIR + CO₂ + thermal) feeding an ML occupancy model. Real-time HVAC scheduling with Raspberry Pi edge inference. The IEEE-reviewed version is in the repo.
+Sensor fusion pipeline (PIR + CO2 + thermal) feeding an ML occupancy model. Real-time HVAC scheduling with Raspberry Pi edge inference. The IEEE-reviewed version is in the repo.
 
 </td>
 </tr>
